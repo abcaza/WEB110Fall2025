@@ -1,0 +1,51 @@
+body{font-family: Arial, Helvetica, sans-serif;
+	background-image: url(background.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;}
+
+main{background-color: #fafafa; 
+	width: 65%;
+	margin: auto;
+	padding: 35px;}
+	
+header{background-image: url(grid.jpg);
+	color: white;
+	padding: 45px;}
+	
+nav{font-weight: Heavy;
+	text-align: center;
+	font-size:28px}
+	
+nav a{text-decoration: none;
+	color: #e089bc;
+	padding: 25px;}
+	
+nav a:hover{color: #5d99e3;} /* blue*/
+
+h1,h2,h3{font-family: Georgia,"Times New Roman", serif;}
+
+h1{text-align: center;
+	font-size:60px;
+	margin: auto;
+	color:white;}
+h2 {color:#5d99e3;}
+h3{color: #e089bc;}
+
+li{line-height: 1.5;}
+
+.web{font-weight: bold;
+	color: #5d99e3;} /* color pink*/
+	
+footer{font-size:75%;
+	font-style: italic;
+	text-align: center;
+	font-family:Georgia, "Times New Roman", serif;
+	padding: 20px;
+	background-color: white;
+	width:20%;
+	margin: auto;}
+	
+#contact{text-align: center;
+	padding: 25px;
+	margin: 20px 0 0 0;}
