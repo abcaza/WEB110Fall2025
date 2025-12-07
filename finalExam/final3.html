@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--Amsi Cazares, 12/5/25-->
+<html lang="en">
+		<head>
+			<title>Survey</title><meta charset="utf-8">
+			<meta charset="utf-8"><link rel="stylesheet" href="styles.css">
+		</head>
+		<body>
+			<a id="top"></a>
+			<div id="wrapper">
+		<header>
+			<h1>Camaro Feedback and Preferences</h1> 
+			
+<!--Title of the home page, mainly to inform viewer what I decided to do with this page-->
+		</header>
+	<nav> 
+<!-- these are the tabs that are going to be on website-->
+			<b>
+					<a href="final1.html"> Home </a> &nbsp;&nbsp;
+					<a href="final2.html"> Details </a> &nbsp;&nbsp; 
+					<a href="final3.html"> Survey </a> &nbsp;&nbsp; 
+					<a href="final4.html"> Credits </a> &nbsp;&nbsp;
+			</b>
+	</nav>
+	<main><!--I feel like its very straight forward but still good-->
+		<h4>Please fill out this survey to share your Camaro preferences and favorite generation.</h4>
+	</main>
+		
+		<img src="vintage.webp" width= "450" height= "350" alt="1969 Carbon Fiber Camaro"  class="vintage.webp">
+		
+		<form name="camaroSurvey" method="post" id="camaroSurvey" action="demo.php">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name">
+<br><br>
+			<label for="dob">When do you plan to purchase a Camaro?</label>
+<br>
+			<input type="date" id="dob" name="dob">
+			
+<br><br>
+        <label>Preferred Transmission:</label><br>
+			<input type="radio" id="auto" name="transmission" value="automatic">
+        <label for="auto">Automatic</label><br>
+			<input type="radio" id="manual" name="transmission" value="manual">
+        <label for="manual">Manual</label><br>
+			<input type="radio" id="either" name="transmission" value="either">
+        <label for="either">Either</label>
+ <br><br>
+        <label>Which Camaro features are most important to you? <b>(select all that apply)</b> </label><br>
+			<input type="checkbox" id="feature1" name="features" value="performance">
+        <label for="feature1">Performance Package</label><br>
+			<input type="checkbox" id="feature2" name="features" value="color">
+        <label for="feature2">Color</label><br>
+			<input type="checkbox" id="feature3" name="features" value="sunroof">
+        <label for="feature3">Sunroof / Convertible</label><br>
+			<input type="checkbox" id="feature4" name="features" value="safety">
+        <label for="feature4">Safety Features</label><br>
+			<input type="checkbox" id="feature5" name="features" value="tech">
+        <label for="feature5">Technology and Infotainment</label><br>
+<br><br>
+        <label for="color">Favorite Generation:</label>
+
+        <select id="color" name="color">
+            <option value="1">1st Generation (1967–1969)</option>
+            <option value="2">2nd Generation (1970–1981)</option>
+            <option value="3">3rd Generation (1982–1992)</option>
+			<option value="4">4th Generation (1993–2002)</option>
+			<option value="5">5th Generation (2010–2015)</option>
+			<option value="6">6th Generation (2016–present)</option>
+        </select>
+<br><br>
+        <label for="message">Why do you prefer the generation you chose?:</label><br>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+<br><br>
+    <!-- Submit and Reset -->
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	
+</form>
+		<p> <!-- External link  --> 
+        <b>Visit</b> the official Chevrolet website:
+        <a href="https://www.chevrolet.com" target="_blank">Chevrolet Official Site</a></p>
+	</main>
+	
+		<p>
+			Contact me: 
+			<a href="mailto:acazares@stumail.jccc.edu">Amsi</a>
+		</p>		<footer>
+			&copy; 2025 &amp; Chevrolet Camaro
+		</footer>
+<!--might come back to add more once I add the CSS sytles sheet ready-->
+
+		</div> 
+	</body>
+</html>
